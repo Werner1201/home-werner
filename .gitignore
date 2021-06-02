@@ -5,6 +5,7 @@
 !.config/neofetch/
 !.config/pipewire/
 !.config/asound.state
+!.config/conky-manager2.json
 .firedragon/
 .fonts/
 .Genymobile/
