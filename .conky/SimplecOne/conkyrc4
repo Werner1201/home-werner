@@ -1,0 +1,74 @@
+#-------------------------------#
+# SimpleC-One Conky-------------#
+# A simple custom conky theme---#
+# System Monitor Widget --------#
+# by luizfnunes-----------------#
+# http://github.com/luizfnunes -#
+# ------------------------------#
+# Customize colors:-------------#
+# color1 - text color ----------#
+# color2 - icons color ---------#
+# color3 - graphs color --------#
+#-------------------------------#
+
+#Text Color
+color1 E0AA3E
+#Icons Color
+color2 AAA69D
+#Graph Color
+color3 67809F
+
+update_interval 1
+double_buffer yes
+no_buffers yes
+imlib_cache_size 10
+own_window true
+own_window_type normal
+own_window_hints undecorated,sticky,skip_taskbar,skip_pager,below
+own_window_colour 000000
+own_window_argb_visual yes
+own_window_argb_value 255
+own_window_transparent yes
+minimum_size 340 200
+background yes
+border_inner_margin 0
+border_outer_margin 0
+alignment middle_right
+gap_x 20
+gap_y 58
+use_xft yes
+xftfont Roboto Condensed:size=12
+text_buffer_size 256
+draw_shades yes
+override_utf8_locale yes
+draw_graph_borders no
+default_color FFFFFF
+cpu_avg_samples 2
+
+TEXT
+${voffset 10}$color1
+$color3$hr
+${alignc}$color3 Atalhos para Programas        
+$hr
+${alignc 10}$color3 Abrir Firefox: $font$color1 Meta+Shift+F
+${alignc 10}$color3 Abrir Navegador de Arquivos $font$color1 Meta+E
+${alignc 10}$color3 Abrir Configurações: $font$color1 Ctrl+Alt+M
+${alignc 10}$color3 Abrir Pamac: $font$color1 Meta+Ctrl+Shift+U
+${alignc 10}$color3 Abrir KsysGuard: $font$color1 Meta+Ctrl+Alt+M
+${alignc 10}$color3 Abrir Discord: $font$color1 Meta+Ctrl+Shift+D
+${alignc 10}$color3 Abrir Ferdi: $font$color1 Meta+Ctrl+Shift+G
+${alignc 10}$color3 Abrir Steam: $font$color1 Meta+Ctrl+Shift+S
+${alignc 10}$color3 Abrir VsCode: $font$color1 Meta+Ctrl+Shift+V
+$color3$hr
+${alignc}$color3 Navegação Firefox        
+$hr
+${alignc 10}$color3 Fecha Aba: $font$color1 Ctrl+W
+${alignc 10}$color3 Fecha Janela: $font$color1 Ctrl+Shift+W
+${alignc 10}$color3 Percorrer Abas à Direita: $font$color1 Ctrl+Tab
+${alignc 10}$color3 Percorrer Abas à Esquerda: $font$color1 Ctrl+Shift+Tab
+${alignc 10}$color3 Aba 1-8: $font$color1 Alt+[1-8]
+${alignc 10}$color3 Abrir Nova Aba: $font$color1 Ctrl+T
+${alignc 10}$color3 Abrir Nova Janela: $font$color1 Ctrl+N
+${alignc 10}$color3 Abrir Nova Janela Priv: $font$color1 Ctrl+Shift+P
+
+

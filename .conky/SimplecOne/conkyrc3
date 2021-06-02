@@ -1,0 +1,84 @@
+#-------------------------------#
+# SimpleC-One Conky-------------#
+# A simple custom conky theme---#
+# System Info/Net Widget -------#
+# by luizfnunes-----------------#
+# http://github.com/luizfnunes -#
+# ------------------------------#
+# Customize colors:-------------#
+# color1 - text color ----------#
+# color2 - icons color ---------#
+# color3 - graphs color --------#
+#-------------------------------#
+
+
+#Text Color
+color1 E0AA3E
+#Icons Color
+color2 AAA69D
+#Graph Color
+color3 67809F
+
+update_interval 1
+double_buffer yes
+no_buffers yes
+imlib_cache_size 10
+own_window true
+own_window_type normal
+own_window_hints undecorated,sticky,skip_taskbar,skip_pager,below
+own_window_colour 000000
+own_window_argb_visual yes
+own_window_argb_value 0
+own_window_transparent yes
+minimum_size 330 190
+background yes
+border_inner_margin 0
+border_outer_margin 0
+alignment bottom_left
+gap_x 10
+gap_y -2
+use_xft yes
+xftfont Roboto Condensed:size=14
+text_buffer_size 256
+draw_shades yes
+override_utf8_locale yes
+draw_graph_borders no
+default_color FFFFFF
+
+
+TEXT
+${voffset 10}$color1
+${alignc}$color3 Opções de Fluxo         
+$hr
+$color3 Mostrar AT: $font$color1 Meta+D
+$color3 Mudar Janela: $font$color1 Alt+TAB
+$color3 Mandar Janela Para AT 1: $font$color1 Meta+!
+$color3 Mandar Janela Para AT 2: $font$color1 Meta+@
+$color3 Janela para Tela 0: $font$color1 Ctrl+Alt+Num+1
+$color3 Janela para Tela 1: $font$color1 Ctrl+Alt+Num+2
+$color3 Mudar p/ AT 1: $font$color1 Ctrl+F1
+$color3 Mudar p/ AT 2: $font$color1 Ctrl+F2
+$color3 Grade de AT Virt: $font$color1 Ctrl+F8
+$color3 Janelas na AT Atual: $font$color1 Ctrl+F9
+$color3 Janelas em Todas ATs: $font$color1 Ctrl+F10
+$color3 Centralizar Mouse: $font$color1 Meta+F6
+$color3 Mouse p/ Foco: $font$color1 Meta+F5
+$color3 Janela p/ Tela Anterior: $font$color1 Meta+Shift+Direita
+$color3 Janela p/ Tela Anterior: $font$color1 Meta+Shift+Esquerda
+
+$color3 Janela à Esquerda: $font$color1 Meta+Alt+Esquerda
+$color3 Janela à Direita: $font$color1 Meta+Alt+Direita
+$color3 Janela à Acima: $font$color1 Meta+Alt+Cima
+$color3 Janela à Baixo: $font$color1 Meta+Alt+Baixo
+
+$color3 Janela p/ Esquerda: $font$color1 Meta+Esquerda
+$color3 Janela p/ Direita: $font$color1 Meta+Direita
+$color3 Janela p/ Acima: $font$color1 Meta+Cima
+$color3 Janela p/ Baixo: $font$color1 Meta+Baixo
+
+${alignc}$color3 Opções de Menu
+$hr
+$color3 Fechar Janela: $font$color1 Alt+F4
+$color3 Maximizar Janela: $font$color1 Meta+PgUp
+$color3 Minimizar Janela: $font$color1 Meta+PgDown
+
